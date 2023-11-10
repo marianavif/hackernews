@@ -271,7 +271,7 @@ input NewLink {
   address: String!
 }
 
-input RefreshTokenInput {
+input RefreshTokenInput{
   token: String!
 }
 
@@ -290,7 +290,8 @@ type Mutation {
   createUser(input: NewUser!): String!
   login(input: Login!): String!
   refreshToken(input: RefreshTokenInput!): String!
-}`},
+}
+`},
 )
 
 // endregion ************************** generated!.gotpl **************************
