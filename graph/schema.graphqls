@@ -39,3 +39,4 @@ type Mutation {
   login(input: Login!): String!
   refreshToken(input: RefreshTokenInput!): String!
 }
+
