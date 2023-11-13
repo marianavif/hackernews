@@ -8,8 +8,8 @@ import (
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/go-chi/chi"
-	database "github.com/marianavf/hackernews/internal/pkg/db/mysql"
 	"github.com/marianavif/hackernews/graph"
+	database "github.com/marianavif/hackernews/internal/pkg/db/mysql"
 )
 
 const defaultPort = "8080"
